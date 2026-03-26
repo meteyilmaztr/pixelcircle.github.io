@@ -1,137 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Pixelcircle is an independent game studio.">
-<meta name="author" content="Pixelcircle">
-<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-<title>Pixelcircle</title>
-
-<style>
-* {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-html, body {
-  height:100%;
-}
-
-body {
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-  background: linear-gradient(135deg, #0f0f12, #1a1a27);
-  color:#ffffff;
-  text-align:center;
-  padding:20px;
-  overflow:hidden;
-}
-
-.container {
-  max-width:500px;
-  width:100%;
-}
-
-.logo {
-  width:120px;
-  margin:0 auto 25px auto;
-  display:block;
-  opacity:0.95;
-}
-
-h1 {
-  font-size:32px;
-  font-weight:600;
-  letter-spacing:1px;
-  margin-bottom:5px;
-}
-
-h2 {
-  font-size:18px;
-  font-weight:400;
-  color:#b8b8b8;
-  margin-bottom:15px;
-}
-
-.email {
-  margin-top:15px;
-  font-size:16px;
-  color:#b8b8b8;
-}
-
-.email a {
-  color:#ffffff;
-  text-decoration:none;
-  border-bottom:1px solid rgba(255,255,255,0.2);
-  padding-bottom:2px;
-}
-
-.social {
-  margin-top:25px;
-  display:flex;
-  justify-content:center;
-  gap:20px;
-}
-
-.social a img {
-  width:32px;
-  height:32px;
-  transition: transform 0.3s;
-}
-
-.social a:hover img {
-  transform: scale(1.2);
-}
-
-footer {
-  margin-top:40px;
-  font-size:12px;
-  color:#aaa;
-}
-
-/* Responsive */
-@media (max-width:480px) {
-  h1 { font-size:26px; }
-  h2 { font-size:14px; }
-  .email { font-size:14px; }
-  .social a img { width:24px; height:24px; }
-}
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-  <img src="logo.png" class="logo" alt="Logo">
-
-  <h1>Pixelcircle</h1>
-  <h2>Indie Game Studio</h2>
-  <p>Pixelcircle is an independent game studio.</p>
-
-  <div class="email">
-    <a href="mailto:info@pixelcircle.org">info@pixelcircle.org</a>
-  </div>
-
-  <div class="social">
-    <a href="https://store.steampowered.com/developer/Pixelcircle" target="_blank" aria-label="Steam">
-      <img src="steam.png" alt="Steam">
-    </a>
-    <a href="https://x.com/pixelcircleorg" target="_blank" aria-label="X">
-      <img src="x.png" alt="X">
-    </a>
-  </div>
-
-  <footer>
-    All rights reserved.
-  </footer>
-
-</div>
-
-</body>
+	<head>		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+		<meta name="description" content="Pixelcircle is an independent game studio.">
+		<meta name="author" content="Pixelcircle">		
+		<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+		<link rel="stylesheet" href="css.css">		
+		<title>Pixelcircle</title>				
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			
+			<img src="logo.png" class="logo" alt="Logo">
+			
+			<h1>Pixelcircle</h1>
+			<h2>Indie Game Studio</h2>
+			
+			<p>Pixelcircle is an independent game studio.</p>
+			
+			<div class="email">
+				<a href="mailto:info@pixelcircle.org">info@pixelcircle.org</a>
+			</div>
+			
+			<div class="social">				
+				<a href="https://store.steampowered.com/developer/Pixelcircle" target="_blank">
+					<img src="steam.png" alt="Steam">
+				</a>
+				
+				<a href="https://x.com/pixelcircleorg" target="_blank">
+					<img src="x.png" alt="X">
+				</a>				
+			</div>
+			
+			<div class="steam-widget">				
+				<iframe
+				src="https://store.steampowered.com/widget/4480710/"
+				allowfullscreen>
+				</iframe>				
+			</div>
+			
+			<footer>
+				All rights reserved.
+			</footer>
+			
+		</div>
+		
+	</body>
 </html>
