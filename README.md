@@ -1,2 +1,2 @@
-# pixelcircle.github.io
-Pixelcircle.org
+# Pixelcircle
+Pixelcircle is an independent game studio.
